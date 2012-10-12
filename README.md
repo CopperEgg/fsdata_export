@@ -3,8 +3,6 @@ fsdata_export
 
 Sample code for extracting CopperEgg filesystem data, exporting it to a spreadsheet (xlsx), and doing some simple analysis and charting. 
 
-* [Website](https://github.com/sjohnsoncopperegg/fsdata_export)
-
 ## Installation
 
 ###Clone this repository.
@@ -25,7 +23,7 @@ bundle install
 fsdata_extract.rb APIKEY [options]
 ```
 Substitute APIKEY with your CopperEgg User API key. Find it as follows:
-  Settings tab -> Personal Settings -> User API Access
+*Settings tab -> Personal Settings -> User API Access
 
 Your command line will appear as follows:
 
