@@ -7,19 +7,22 @@ Sample code for extracting CopperEgg filesystem data, exporting it to a spreadsh
 
 ## Installation
 
-Clone this repository.
+###Clone this repository.
 
-###git clone http://git@github.com:sjohnsoncopperegg/fsdata_export.git
+```ruby
+git clone http://git@github.com:sjohnsoncopperegg/fsdata_export.git
+```
 
-Run the Bundler
+###Run the Bundler
 
-###bundle install
-
+```ruby
+bundle install
+```
 
 ## Usage
 
 ```ruby
-###fsdata_extract.rb APIKEY [options]
+fsdata_extract.rb APIKEY [options]
 ```
 Substitute APIKEY with your CopperEgg User API key. Find it as follows:
   Settings tab -> Personal Settings -> User API Access
@@ -27,7 +30,7 @@ Substitute APIKEY with your CopperEgg User API key. Find it as follows:
 Your command line will appear as follows:
 
 ```ruby
-###fsdata_extract.rb '1234567890123456'
+fsdata_extract.rb '1234567890123456'
 ```
     
 ## Defaults and Options
