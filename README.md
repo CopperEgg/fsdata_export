@@ -22,8 +22,8 @@ bundle install
 ```ruby
 fsdata_extract.rb APIKEY [options]
 ```
-Substitute APIKEY with your CopperEgg User API key. Find it as follows:
-*Settings tab -> Personal Settings -> User API Access
+Substitute APIKEY with your CopperEgg User API key. Find it as follows:   
+Settings tab -> Personal Settings -> User API Access
 
 Your command line will appear as follows:
 
