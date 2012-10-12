@@ -1,7 +1,20 @@
 fsdata_export
 =============
 
-Sample code for extracting CopperEgg filesystem data, exporting it to a spreadsheet (xlsx), and doing some simple analysis and charting. 
+Sample code for extracting CopperEgg filesystem data, exporting it to a spreadsheet (xlsx), and doing some simple analysis and charting.
+
+###Synopsis
+This sample code was created in response to customer requests. Its intent is to provide examples of using the CopperEgg API to export data from a user-selected time-frame, do some simple analysis of the data, and programmatically create a few charts in the spreadsheeet.    
+
+This ruby script is based on three components:   
+* The CopperEgg API   
+* Axlsx, an Office Open XML Spreadsheet generator for the Ruby programming.   
+* Typhoeus, which runs HTTP requests in parallel while cleanly encapsulating libcurl handling logic. 
+
+* [CopperEgg API](http://dev.copperegg.com/)
+* [Axlsx](https://github.com/randym/axlsx)
+* [Typhoeus](https://github.com/typhoeus/typhoeus)
+
 
 ## Installation
 
