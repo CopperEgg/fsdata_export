@@ -74,7 +74,7 @@ class ExtractOptparse
       end
  
       # Optional argument with keyword completion.
-      opts.on("-i" "--interval [INTERVAL]", String,[:ytd, :pm, :mtd, :l1, :l7,:l30, :l60, :l90],
+      opts.on("-i", "--interval [INTERVAL]", String,[:ytd, :pm, :mtd, :l1, :l7,:l30, :l60, :l90],
               "Select interval (ytd, pm, mtd)") do |i|
         options.interval = i
         tmp = Time.now
