@@ -45,14 +45,14 @@ ruby fsdata_extract.rb '1234567890123456'
     
 ## Defaults and Options
 
-The available can be found by typing in the following on your command line
+The available options can be found by typing in the following on your command line
 ```ruby
 ruby fsdata_extract.rb -h
 ```
 
 Today these options are   
    
-* -o, --Output path                Path to write .xlsx files   
+* -o, --output_path                Path to write .xlsx files   
 * -s, --sample_size [SECONDS]      Override default sample size   
 * -i, --interval [INTERVAL]        Select interval (ytd, pm, mtd)   
 * -v, --verbose                    Run verbosely
@@ -104,7 +104,7 @@ A set of simple analytics is printed to the terminal screen when the script fini
 
 ### Spreadsheets
 
-One spreadsheet is created for each systen monitored during the time interval exported.
+One spreadsheet is created for each system monitored during the time interval exported.
 
 ### Charts
 

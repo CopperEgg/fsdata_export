@@ -64,7 +64,7 @@ class ExtractOptparse
       opts.separator ""
       opts.separator "Specific options:"
 
-      opts.on("-o", "--Output path" , String, "Path to write .xlsx files") do |op|
+      opts.on("-o", "--output_path" , String, "Path to write .xlsx files") do |op|
         options.outpath = op
       end
 
