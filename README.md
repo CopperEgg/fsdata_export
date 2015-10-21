@@ -1,17 +1,17 @@
 fsdata_export
 =============
 
-Sample code for extracting CopperEgg filesystem data, exporting it to a spreadsheet (xlsx), and doing some simple analysis and charting.
+Sample code for extracting Uptime Cloud Monitor filesystem data, exporting it to a spreadsheet (xlsx), and doing some simple analysis and charting.
 
 ###Synopsis
-The intent of this script is to provide examples of using the CopperEgg API to export data to a spreadsheet from a user-selected time-frame, programmatically create charts in the spreadsheet, and do some simple analysis of the data.    
+The intent of this script is to provide examples of using the Uptime Cloud Monitor API to export data to a spreadsheet from a user-selected time-frame, programmatically create charts in the spreadsheet, and do some simple analysis of the data.
 
 This ruby script is based on three components:   
-* The CopperEgg API   
+* The Uptime Cloud Monitor API
 * Axlsx, an Office Open XML Spreadsheet generator for the Ruby programming.   
 * Typhoeus, which runs HTTP requests in parallel while cleanly encapsulating libcurl handling logic. 
 
-* [CopperEgg API](http://dev.copperegg.com/)
+* [Uptime Cloud Monitor API](http://dev.copperegg.com/)
 * [Axlsx](https://github.com/randym/axlsx)
 * [Typhoeus](https://github.com/typhoeus/typhoeus)
 
@@ -34,7 +34,7 @@ bundle install
 ```ruby
 ruby fsdata_extract.rb APIKEY [options]
 ```   
-Substitute APIKEY with your CopperEgg User API key. Find it as follows:   
+Substitute APIKEY with your Uptime Cloud Monitor User API key. Find it as follows:
 Settings tab -> Personal Settings -> User API Access
 
 Your command line will appear as follows:
@@ -115,7 +115,7 @@ Two charts are created for each filesystem, on every system monitored.
 
 (The MIT License)
 
-Copyright © 2012 [CopperEgg Corporation](http://copperegg.com)
+Copyright © 2012 [IDERA](http://idera.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),

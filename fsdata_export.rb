@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-# Copyright 2012 CopperEgg Corporation.  All rights reserved.
+# Copyright 2012 IDERA.  All rights reserved.
 #
-# fsdata_export.rb is a utility to export filesystem data from CopperEgg to an xlsx spreadsheet.
+# fsdata_export.rb is a utility to export filesystem data from Uptime Cloud Monitor to an xlsx spreadsheet.
 #
 # TODO: add more granular time / date selection
 # 
